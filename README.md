@@ -56,6 +56,48 @@
 }
 ```
 
+------
+
+### 全网百度网盘短剧查询，每日更新：
+
+> 接口地址： https://www.duanju.click/api/short/baidu
+
+> 请求参数说明：
+
+| 名称  | 必填 | 类型   | 说明             | 请求示例                                                     |
+| :---- | :--- | :----- | :--------------- | :----------------------------------------------------------- |
+| today | 是   | string | 查询今日更新     | [https://www.duanju.click/api/short/baidu?today](https://www.duanju.click/api/short/baidu?today) |
+
+> 返回参数说明：
+
+| 名称 | 类型   | 说明     |
+| :--- | :----- | :------- |
+| name | string | 短剧名称 |
+| link | string | 短剧链接 |
+| time | string | 更新时间 |
+
+> 返回示例
+
+```json
+{
+  "code": 200,
+  "msg": "今日更新短剧",
+  "data": [
+    {
+      "name": "宁宴长欢（86集）权裴伦&彩彩云",
+      "link": "https://pan.baidu.com/s/1PNzskabDxrI4Fq2LDDYg-w?pwd=8888",
+      "time": "2025-06-14 00:30:28",
+      "remarks": ""
+    },
+    {
+      "name": "嗜她如命（77集）肖文宇",
+      "link": "https://pan.baidu.com/s/1feEO_hB1k-4YLFawLqpylg?pwd=8888",
+      "time": "2025-06-14 00:30:34",
+      "remarks": ""
+    }
+}
+```
+
 
 
 ------
