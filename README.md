@@ -20,7 +20,7 @@
 
 
 
-### 全网夸克网盘短剧查询，每日更新：
+### 夸克网盘短剧查询，API接口：
 
 > 接口地址： https://www.duanju.click/api/short/quark
 
@@ -58,7 +58,7 @@
 
 ------
 
-### 全网百度网盘短剧查询，每日更新：
+### 百度网盘短剧查询，API接口：
 
 > 接口地址： https://www.duanju.click/api/short/baidu
 
