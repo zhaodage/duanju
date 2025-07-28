@@ -66,6 +66,8 @@
 
 | 名称  | 必填 | 类型   | 说明             | 请求示例                                                     |
 | :---- | :--- | :----- | :--------------- | :----------------------------------------------------------- |
+| text  | 是   | string | 搜索短剧名称     | [https://www.duanju.click/api/short/baidu?text=十八岁太奶奶驾到重整家族荣耀2](https://www.duanju.click/api/short/baidu?text=十八岁太奶奶驾到重整家族荣耀2) |
+| list  | 是   | string | 查询接口全部短剧 | [https://www.duanju.click/api/short/baidu?list](https://www.duanju.click/api/short/baidu?list) |
 | today | 是   | string | 查询今日更新     | [https://www.duanju.click/api/short/baidu?today](https://www.duanju.click/api/short/baidu?today) |
 
 > 返回参数说明：
